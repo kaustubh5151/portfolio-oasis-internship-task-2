@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio for CodeSoft</title>   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2835751283.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Kaustubh Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer & Cyber Security Eng</p>
+                <h2>Hi, I'm <span>Kaustubh H Phadke</span><br> from India.</h2>
+            </div>
+            <div class="button">
+                <a download="" href="images/kaustubh cv.pdf"><button>Download CV</button></a>
+            </div>
+        </div>
+    </div>
+    <!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/kaustubh 1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Kaustubh and my passion for front-end development, coupled with his extensive knowledge and dedication to continuous learning, make him a standout professional in his field. His ability to create engaging and intuitive user interfaces, collaborate effectively with multidisciplinary teams, and deliver high-quality solutions positions him as a valuable asset and an exemplary front-end developer.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End/DevOps</span><br>Developing and maintaing the software</li>
+                            <li><span>Front-End</span><br>Front-End Web development</li>
+                            <li><span>Cyber Security Eng</span><br>provide security to the website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June - 2023</span><br>Web Development Internship at CodeSoft.</li>
+                            <li><span>may - 2023</span><br>Cyber Security  Internship at Teachnook.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>4th Year B.Tech in Information Technology from Bharati Vidyapeeth.</li>
+                            <li><span>2020 </span><br>12th in MPASC College panvel .</li>
+                            <li><span>2018</span><br> 10th in VK High School panvel.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----Services------- -->
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development refers to the process of creating websites and web applications. It involves a combination of front-end development, back-end development, and database management to build functional and interactive online experiences.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-code"></i>
+                <h2>Front-End Development</h2>
+                <p>Front-end development refers to the practice of creating the user interface (UI) and user experience (UX) of a website or application. Front-end developers are responsible for implementing the visual and interactive elements that users see and interact with on the screen.</p>
+                <a href="https://www.coursera.org/articles/front-end-developer">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Cyber Security engineer </h2>
+                <p>A cybersecurity engineer is an information security professional who performs information security functions that include designing, developing and implementing highly secure network solutions.</p>
+                <a href="https://www.coursera.org/articles/what-is-a-security-engineer">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------Portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Netflix Home Page</h3>
+                    <p>This is my Internship first task. In this task I design Netflix basic login page</p>
+                    <a href="https://netflixdesingbyganesh9503.on.drv.tw/www.NetflixDesignedbyGanesh.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            <div class="work">
+                <img src="images/work4.png">
+                <div class="layer">
+                    <h3>Election Fulcrum</h3>
+                    <p>This project is University or Society level Election Platform.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work5.png">
+                <div class="layer">
+                    <h3>Hotel Website</h3>
+                    <p>In hotel website we can book the different type room at different Price and facility.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!------------cotact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Kaustubhphadke5151@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-7678067020</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kaustubh.phadke.3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Kaustubh7020"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/kaustubh._.7020/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn4">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All right reserved ©2023. Made by @Kaustubh H Phadke.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyK0sM714dBDZ9Jd4sQYF-tDJdvkUSEdHdyPXAls2nRHsq1-yAl1BM8gbjxXmioEK0YNw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
